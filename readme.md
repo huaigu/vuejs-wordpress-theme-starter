@@ -37,12 +37,12 @@ A true WordPress theme with the guts ripped out and replaced with Vue. **Looking
 [![Watch the getting started video](https://res.cloudinary.com/evanagee/image/upload/c_scale,w_1000/v1580251167/VueWP/getting-started-youtube2.jpg)](https://www.youtube.com/watch?v=xF-ZVrk7N5g)
 
 1. **Clone the repo** inside of your `wp-content/themes/` directory
-2. **Navigate to the theme directory in your terminal** and run
-   `npm install`
-   `npm install @babel/core @babel/preset-env` (**!Important**)
-   `npm run watch` for development
-   `npm run build` when you're ready to deploy the theme.
-3. **Activate the theme** in your WordPress instance.
+2. **Navigate to the theme directory in your terminal** and run  
+   `npm install`  
+   `npm install @babel/core @babel/preset-env`(**!Important**)  
+   `npm run watch` for development  
+   `npm run build` when you're ready to deploy the theme.  
+3. **Activate the theme** in your WordPress instance.  
 4. **Update your permalink settings** `(Settings -> Permalinks)` to be **"Day and name"**. If you don't want to use this setting you'll need to update the Vue router so it can find your content correctly. Please note that if you want to use a different permalink structure you'll need to update `./src/router/index.js` so it looks for the correct path.
 5. Boom.com!
 
