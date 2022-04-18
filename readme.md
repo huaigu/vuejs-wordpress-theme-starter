@@ -39,6 +39,7 @@ A true WordPress theme with the guts ripped out and replaced with Vue. **Looking
 1. **Clone the repo** inside of your `wp-content/themes/` directory
 2. **Navigate to the theme directory in your terminal** and run
    `npm install`
+   `npm install @babel/core @babel/preset-env` (**!Important**)
    `npm run watch` for development
    `npm run build` when you're ready to deploy the theme.
 3. **Activate the theme** in your WordPress instance.
